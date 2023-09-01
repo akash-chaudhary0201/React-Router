@@ -19,7 +19,7 @@ function Navbarr() {
                                 <Link to="/about">About</Link>
                             </Nav.Link>
                             <Nav.Link>
-                                <Link to="/">Contact</Link>
+                                <Link to="/contact">Contact</Link>
                             </Nav.Link>
 
                         </Nav>
