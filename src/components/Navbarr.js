@@ -32,6 +32,12 @@ function Navbarr() {
                             <Nav.Link className='linkk'>
                                 <NavLink className="navbar-link" to="/login">Login</NavLink>
                             </Nav.Link>
+                            <Nav.Link className='linkk'>
+                                <NavLink className="navbar-link" to="/api">Call Api</NavLink>
+                            </Nav.Link>
+                            <Nav.Link className='linkk'>
+                                <NavLink className="navbar-link" to="/postapi">Post Api</NavLink>
+                            </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

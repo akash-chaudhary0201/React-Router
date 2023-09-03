@@ -11,6 +11,8 @@ import Contact from './components/Contact';
 import Sales from './components/Sales';
 import Marketing from './components/Marketing';
 import Login from './components/Login';
+import Api from './components/Api';
+import PostApi from './components/PostApi';
 
 
 function App() {
@@ -29,6 +31,8 @@ function App() {
             <Route path='marketing' element={<Marketing />}></Route>
           </Route>
           <Route path='/login' element={<Login />} />
+          <Route path='/api' element={<Api />} />
+          <Route path='/postapi' element={<PostApi />} />
         </Routes>
       </BrowserRouter>
     </div>
