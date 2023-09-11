@@ -13,6 +13,7 @@ import Marketing from './components/Marketing';
 import Login from './components/Login';
 import Api from './components/Api';
 import PostApi from './components/PostApi';
+import DeleteApi from './components/DeleteApi'
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/api' element={<Api />} />
           <Route path='/postapi' element={<PostApi />} />
+          <Route path='/deleteapi' element={<DeleteApi />} />
         </Routes>
       </BrowserRouter>
     </div>

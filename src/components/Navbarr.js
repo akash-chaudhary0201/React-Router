@@ -38,10 +38,15 @@ function Navbarr() {
                             <Nav.Link className='linkk'>
                                 <NavLink className="navbar-link" to="/postapi">Post Api</NavLink>
                             </Nav.Link>
+                            <Nav.Link className='linkk'>
+                                <NavLink className="navbar-link" to="/deleteapi">DELETE Api</NavLink>
+                            </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
+
+
 
         </>
     )

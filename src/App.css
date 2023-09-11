@@ -54,3 +54,15 @@
   background-color: #282c34;
   border-radius: 20px;
 }
+
+.postapiTable {
+  border: 1px solid black;
+}
+
+.postapiTable tr {
+  border: 1px solid #000;
+}
+
+.postapiTable td {
+  border: 1px solid #000;
+}
